@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53f24167-1ad8-4389-be8c-69ee2242825b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/portfolio_zfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/states-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/states.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_libs.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_libs.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/YakovSPb/SummerNew" />
+      </set>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1lyhwq2olHtA40iTSzwk3XJQaqD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\777\Desktop\Work\SummerNew\app" />
+      <recent name="C:\Users\777\Desktop\Work\SummerNew\app\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53f24167-1ad8-4389-be8c-69ee2242825b" name="Default Changelist" comment="" />
+      <created>1608575480461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608575480461</updated>
+      <workItem from="1608575482256" duration="844000" />
+      <workItem from="1608576384339" duration="783000" />
+      <workItem from="1608577216056" duration="9467000" />
+      <workItem from="1608626380176" duration="3048000" />
+      <workItem from="1608637877229" duration="11064000" />
+      <workItem from="1608657052433" duration="756000" />
+      <workItem from="1608718789487" duration="5276000" />
+      <workItem from="1608728616588" duration="1660000" />
+      <workItem from="1608810113168" duration="5707000" />
+      <workItem from="1608896680307" duration="6206000" />
+      <workItem from="1609162986062" duration="6981000" />
+      <workItem from="1609261879475" duration="2237000" />
+      <workItem from="1609319419312" duration="1427000" />
+      <workItem from="1609327993110" duration="695000" />
+      <workItem from="1609352632303" duration="3390000" />
+      <workItem from="1609697534260" duration="595000" />
+      <workItem from="1610525421616" duration="3058000" />
+      <workItem from="1610533923963" duration="13869000" />
+      <workItem from="1610887842127" duration="37000" />
+      <workItem from="1610896956904" duration="7275000" />
+      <workItem from="1610969075121" duration="4000" />
+      <workItem from="1611051198514" duration="194000" />
+      <workItem from="1611061088904" duration="9304000" />
+      <workItem from="1611139186107" duration="10000" />
+      <workItem from="1611152809473" duration="10666000" />
+      <workItem from="1611227090196" duration="85000" />
+      <workItem from="1611241742861" duration="1799000" />
+      <workItem from="1611243571138" duration="6516000" />
+      <workItem from="1611250165063" duration="1779000" />
+      <workItem from="1611251973679" duration="1766000" />
+      <workItem from="1611307052730" duration="1772000" />
+      <workItem from="1611308854631" duration="3286000" />
+      <workItem from="1611321692773" duration="594000" />
+      <workItem from="1611332281466" duration="2000" />
+      <workItem from="1611332589915" duration="594000" />
+      <workItem from="1611336233209" duration="2076000" />
+      <workItem from="1611404528888" duration="299000" />
+      <workItem from="1611405128871" duration="17464000" />
+      <workItem from="1611479018448" duration="3205000" />
+      <workItem from="1611482402272" duration="850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Title</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="icon" href="img/favicon.png">
+    <meta property="og:image" content="">
+
+
+</head>
+
+<body>
+
+
+<header class="header">
+    <div class="header_info">
+        <div class="container">
+            <div class="header_inner">
+                <a href="/" class="logo"><img src="img/logo.svg" alt="alt"></a>
+                <div class="mobile_info">
+                    <div class="mobile_info__geo"><img src="img/geo_white.svg" alt="alt"></div>
+                    <div class="mobile_info__phone"><a href="tel:+77777777777"><img src="img/phone.svg" alt="alt"></a>
+                    </div>
+                    <div class="mobile_info__burger mobile_info__burger--active">
+                        <img class="mobile_info__open" src="img/burger.svg" alt="alt">
+                        <img class="mobile_info__close" src="img/close.svg" alt="alt">
+                    </div>
+                </div>
+                <nav class="menu header__menu">
+                    <ul class="menu__list">
+                        <li class="menu-item"><a href="/news">Услуги</a></li>
+                        <li class="menu-item"><a href="/portfolio.html">Портфолио</a></li>
+                        <li class="menu-item"><a href="/about.html">О нас</a></li>
+                        <li class="menu-item"><a href="/contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <form class="search_form" id="searchform" method="get">
+                        <input class="search_form__input" name="s" placeholder="Поиск" type="search">
+                        <div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
+                    </form>
+                </div>
+            </div>
+            <div class="header_loc">
+                <ul class="header_loc__list">
+                    <li class="header_loc__item--close">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="14.142" y="15.5566" width="20" height="2" transform="rotate(-135 14.142 15.5566)"
+                                  fill="#4D63AA"/>
+                            <rect x="-0.00012207" y="14.1426" width="20" height="2"
+                                  transform="rotate(-45 -0.00012207 14.1426)" fill="#4D63AA"/>
+                        </svg>
+                    </li>
+                    <li class="header_loc__item"><a class="header_loc__link" href="#">Москва</a></li>
+                    <li class="header_loc__item"><a class="header_loc__link" href="#">Московская область</a></li>
+                    <li class="header_loc__item"><a class="header_loc__link" href="#">Санкт-Петербург</a></li>
+                    <li class="header_loc__item"><a class="header_loc__link" href="#">Ленинградская область</a></li>
+                    <li class="header_loc__item"><a class="header_loc__link" href="#">Регионы РФ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header_contacts">
+        <div class="container">
+            <div class="header_wrapper">
+                <div class="location">
+						<span class="location__link">
+							<img src="img/location.svg" alt="alt"><a class="navbar-link primer-header-region"
+                                                                     data-toggle="popover" data-placement="bottom"
+                                                                     data-title="Ваш регион Москва?">Санкт-Петербург</a></span>
+                </div>
+                <div class="phone header__phone">
+                    <a href="#" class="phone_item">8 812 646 80 80</a>
+                    <a href="#" class="phone_item">8 800 333 38 28</a>
+                </div>
+                <div class="email header__email">
+                    <a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
+                </div>
+                <a data-fancybox data-src="#modal_form" class="btn" href="javascript:;">Бесплатная консультация</a>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+
+<nav class="menu mobile_menu">
+    <div class="search mobile_menu__search">
+        <form class="search_form" id="searchform2" method="get">
+            <input class="search_form__input" name="s" placeholder="Поиск" type="search">
+            <div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
+        </form>
+        <div class="search_form__cancel">Отменить</div>
+    </div>
+    <ul class="menu__list">
+        <li class="menu-item"><a href="/news">Услуги</a></li>
+        <li class="menu-item"><a href="/portfolio.html">Портфолио</a></li>
+        <li class="menu-item"><a href="/media">О нас</a></li>
+        <li class="menu-item"><a href="/contacts.html">Контакты</a></li>
+    </ul>
+    <div class="container">
+        <div class="mobile_location">
+            <ul class="mobile_location__list">
+                <li class="mobile_location__item mobile_location__item--active">Санкт-Петербург</li>
+                <li class="mobile_location__item">Москва</li>
+                <li class="mobile_location__item">Регионы</li>
+            </ul>
+        </div>
+    </div>
+    <div class="mobile_inner">
+        <div class="moble_contact">
+            <div class="phone">
+                <a href="#" class="phone_item">8 812 646 80 80</a>
+            </div>
+            <div class="email">
+                <a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
+            </div>
+        </div>
+        <div class="mobile_btn">
+            <a data-fancybox="" data-src="#modal_form" class="btn" href="javascript:;">Заявка</a>
+        </div>
+    </div>
+
+</nav>
+
+<div class="wrapper">
+    <div class="breadcrums_block breadcrums_block--white">
+        <div class="container">
+						<span property="itemListElement">
+							<a property="item" href="https://companyls.ru" class="home"><span
+                                    property="name">Главная</span></a>
+							<span>/</span>
+							<a property="item" href="#"><span property="name">Остекление фасадов</span></a>
+							<span>/</span>
+							<span class="post post-page current-item">Название услуги</span>
+						</span>
+        </div>
+    </div>
+    <div class="main main_w_b">
+
+        <div class="card_promo">
+            <div class="container">
+                <div class="card_promo_inner">
+                    <div class="card_promo_info">
+                        <h1 class="card_promo_title">Название услуги</h1>
+                        <div class="card_promo_desc">УТП /выгода или пояснение к услуге</div>
+                        <div class="card_promo_btn">
+                            <a data-fancybox="" data-src="#modal_form" class="btn btn--yellow" href="javascript:;">Рассчитать
+                                стоимость</a>
+                            <a class="card_promo_link">Портфолио</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card_info">
+            <div class="container">
+                <div class="card_info_inner">
+                    <div class="card_info_text">
+                        <h4 class="card_info_h4">Подзаголовок</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco</p>
+                    </div>
+                    <div class="card_info_img">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_block">
+            <div class="min-container">
+                <h4>Подзаголовок</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum</p>
+                <ol>
+                    <li>Многослойный триплекс используется в стеклопакетах, при оформлении фасадов зданий, балконов и
+                        лоджий, навесов и козырьков, перегородок и т.д. Материал получил широкое распространение в
+                        квартирах, загородных домах и коттеджах.
+                    </li>
+                    <li>Многослойный триплекс используется в стеклопакетах, при оформлении фасадов зданий, балконов и
+                        лоджий, навесов и козырьков, перегородок и т.д. Материал получил широкое распространение в
+                        квартирах, загородных домах и коттеджах.
+                    </li>
+                    <li>Многослойный триплекс используется в стеклопакетах, при оформлении фасадов зданий, балконов и
+                        лоджий, навесов и козырьков, перегородок и т.д. Материал получил широкое распространение в
+                        квартирах, загородных домах и коттеджах.
+                    </li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore</p>
+                <ul>
+                    <li>Многослойный триплекс используется в стеклопакетах, при оформлении фасадов зданий, балконов и
+                        лоджий, навесов и козырьков, перегородок и т.д. Материал получил широкое распространение в
+                        квартирах, загородных домах и коттеджах.
+                    </li>
+                    <li>Многослойный триплекс используется в стеклопакетах, при оформлении фасадов зданий, балконов и
+                        лоджий, навесов и козырьков, перегородок и т.д. Материал получил широкое распространение в
+                        квартирах, загородных домах и коттеджах.
+                    </li>
+                    <li>Многослойный триплекс используется в стеклопакетах, при оформлении фасадов зданий, балконов и
+                        лоджий, навесов и козырьков, перегородок и т.д. Материал получил широкое распространение в
+                        квартирах, загородных домах и коттеджах.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card_tech">
+            <div class="container">
+                <div class="card_tech_title">Технологии замены остекления</div>
+                <div class="card_tech_subtitle">разработанные нашими инжеренами</div>
+                <div class="card_tech_select">
+                    <select>
+                        <option value="0">Стэлс</option>
+                        <option value="1">Стокгольм</option>
+                        <option value="2">Барселона</option>
+                        <option value="3">Рио</option>
+                        <option value="4">Монако</option>
+                        <option value="5">Цюрих</option>
+                        <option value="6®">EWIC®</option>
+                    </select>
+                </div>
+                <div class="card_tabs__wrapper">
+                    <div class="card_tabs">
+                        <span class="card_tab">Стэлс</span>
+                        <span class="card_tab">Стокгольм</span>
+                        <span class="card_tab">Барселона</span>
+                        <span class="card_tab">Рио</span>
+                        <span class="card_tab">Монако</span>
+                        <span class="card_tab">Цюрих</span>
+                        <span class="card_tab">EWIC<sup>®</sup></span>
+                    </div>
+                    <div class="card_tab_content">
+                        <div class="card_tab_item">
+                            <div class="card_tab_promo">
+                                <div class="card_tab_img"><img src="img/@2x/card_image_01.jpg" alt="alt"></div>
+                                <a data-fancybox="" href="javascript:;" data-src="#modal_form"
+                                   class="btn btn--yellow card_tab_btn">Рассчитать стоимость</a>
+                            </div>
+                            <div class="card_tab_info">
+                                <div class="card_tab_title">Стокгольм</div>
+                                <p>Первая технология, разработанная компанией «Летний сад». На данный момент является
+                                    самым распространённым способом замены фасадного остекления в России, позволяющим
+                                    сохранить необходимый уровень тепла для более комфортного использования балкона.</p>
+                                <ol>
+                                    <li><p>Замена стекол на стеклопакеты с использованием компенсатора и
+                                        терморазрыва.</p></li>
+                                    <li><p>Утепление запатентованной системой коробов EWIC®.</p></li>
+                                    <li><p>Внутренняя окраска в любой цвет по каталогу RAL, ламинирование в любой цвет
+                                        по RENOLIT.</p></li>
+                                </ol>
+                                <p>В результате уютная, чистая и светлая зона с температурой на 10-15 С° выше уличной в
+                                    холодные месяцы года или до + 25 С° летом.</p>
+                            </div>
+                        </div>
+                        <div class="card_tab_item">
+                            <div class="card_tab_promo">
+                                <div class="card_tab_img"><img src="img/@2x/card_image_01.jpg" alt="alt"></div>
+                                <a data-fancybox="" href="javascript:;" data-src="#modal_form"
+                                   class="btn btn--yellow card_tab_btn">Рассчитать стоимость</a>
+                            </div>
+                            <div class="card_tab_info">
+                                <div class="card_tab_title">Стокгольм 2</div>
+                                <p>Первая технология, разработанная компанией «Летний сад». На данный момент является
+                                    самым распространённым способом замены фасадного остекления в России, позволяющим
+                                    сохранить необходимый уровень тепла для более комфортного использования балкона.</p>
+                                <ol>
+                                    <li><p>Замена стекол на стеклопакеты с использованием компенсатора и
+                                        терморазрыва.</p></li>
+                                    <li><p>Утепление запатентованной системой коробов EWIC®.</p></li>
+                                    <li><p>Внутренняя окраска в любой цвет по каталогу RAL, ламинирование в любой цвет
+                                        по RENOLIT.</p></li>
+                                </ol>
+                                <p>В результате уютная, чистая и светлая зона с температурой на 10-15 С° выше уличной в
+                                    холодные месяцы года или до + 25 С° летом.</p>
+                            </div>
+                        </div>
+                        <div class="card_tab_item">Содержимое 3</div>
+                        <div class="card_tab_item">Содержимое 4</div>
+                        <div class="card_tab_item">Содержимое 5</div>
+                        <div class="card_tab_item">Содержимое 6</div>
+                        <div class="card_tab_item">Содержимое 7</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_item card_item_mb">
+            <div class="container">
+                <div class="card_item_inner">
+                    <div class="card_item_img"><img src="img/@2x/card_item_01.jpg" alt="alt"></div>
+                    <div class="card_item_info">
+                        <div class="card_item_title">Согласование работ с управляющей компанией</div>
+                        <p>Согласование остекления особенно актуально при фасадных работах методом промышленного
+                            альпинизма. Без согласования проекта невозможно получить разрешение на выполнение работ и
+                            ключи от выхода на кровлю. Однако при проведении работ на витражном остеклении иногда также
+                            требуется согласование. Проведение монтажных работ без согласования может повлечь за собой
+                            предписание от управляющей компании с требованием восстановить первоначальный вид
+                            фасада.</p>
+                        <p>Требования многих управляющих компаний нам известны, однако если вашей управляющей компании
+                            нет в нашем арсенале, мы готовы уточнить порядок процедуры получения необходимых документов,
+                            разрешений и провести согласование. Правила согласования одинаковы для всех физических
+                            (частных) и юридических лиц и действуют по всей территории РФ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_item card_item--reverse">
+            <div class="container">
+                <div class="card_item_inner">
+                    <div class="card_item_img"><img src="img/@2x/card_item_img_02.jpg" alt="alt"></div>
+                    <div class="card_item_info card_item_info--margin">
+                        <p>Для упорядочения деятельности жильцов по вопросу замены фасадного остекления и согласования
+                            проектов в управляющей компании разработан регламент, в нем собран перечень документов и
+                            указаны требования к содержанию проектов переостекления.</p>
+                        <p>Технологии замены остекления компании «Летний сад» не предполагают изменений внешнего вида
+                            фасада, но согласования в некоторых случаях необходимы. Они могут потребоваться, когда:</p>
+                        <div class="card_item_numbers">
+                            <div class="card_num">
+                                <div class="card_num_title">01</div>
+                                <div class="card_num_text">Изменяется толщина заполнения фасадной конструкции</div>
+                            </div>
+                            <div class="card_num">
+                                <div class="card_num_title">02</div>
+                                <div class="card_num_text">Уменьшаются размеры световых проемов</div>
+                            </div>
+                            <div class="card_num">
+                                <div class="card_num_title">03</div>
+                                <div class="card_num_text">Привлекаются промышленные альпинисты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_doc">
+            <div class="container">
+                <div class="card_doc_title">Мы предоставлям все необходимые документы и берем на себя процесс
+                    согласования проекта
+                </div>
+                <div class="card_doc_list">
+                    <div class="card_doc_item">
+                        <div class="card_doc_item__num">01</div>
+                        <div class="card_doc_item__text">Проект замены холодного фасадного остекления на тёплое,
+                            оформленный в соответствии с требованиями управляющей компании, содержащий в себе чертежи
+                            основных узлов и сечений, список применяемых технологий и материалов, технологическую карту
+                            работ и т.п.
+                        </div>
+                    </div>
+                    <div class="card_doc_item">
+                        <div class="card_doc_item__num">02</div>
+                        <div class="card_doc_item__text">Гарантийное письмо в управляющую компанию о принятии на себя
+                            ответственности за сохранность общедомового имущества и имущества третьих лиц при
+                            производстве работ.
+                        </div>
+                    </div>
+                    <div class="card_doc_item">
+                        <div class="card_doc_item__num">03</div>
+                        <div class="card_doc_item__text">Если при производстве работ используются промышленные
+                            альпинисты - наряд-допуск на работы повышенной опасности и удостоверения альпинистов.
+                        </div>
+                    </div>
+                </div>
+                <div class="card_doc_desc">От вас дополнительно может понадобится заявление на проведение работ по
+                    замене остекления.
+                </div>
+            </div>
+        </div>
+
+        <div class="card_attention">
+            <div class="card_attention__icon"><img src="img/info_icon.svg" alt="alt"></div>
+            <div class="card_attention__info">
+                <div class="card_attention__title">Обратите внимание</div>
+                <div class="card_attention__text">Проект должен быть разработан специализированной организацией, которая
+                    является членом СРО проектировщиков.
+                </div>
+                <div class="card_attention__text">Компания «Летний сад» имеет разрешительную документацию для подготовки
+                    проекта и проведения работ по замене остекления.
+                </div>
+            </div>
+        </div>
+
+        <div class="card_item card_item_mb">
+            <div class="container">
+                <div class="card_item_inner">
+                    <div class="card_item_img"><img src="img/@2x/card_item_01.jpg" alt="alt"></div>
+                    <div class="card_item_info">
+                        <div class="card_item_title card_item_title--margin">Подзаголовок к тексту ниже</div>
+                        <div class="card_item_subtitle">Подзаголовок</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_item card_item--reverse card_item_mb">
+            <div class="container">
+                <div class="card_item_inner">
+                    <div class="card_item_img"><img src="img/@2x/card_item_img_02.jpg" alt="alt"></div>
+                    <div class="card_item_info">
+                        <div class="card_item_title card_item_title--margin">Подзаголовок к тексту ниже</div>
+                        <div class="card_item_subtitle">Подзаголовок</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <div class="card_item_subtitle">Подзаголовок</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_state">
+            <div class="container">
+                <div class="card_state_h2"><h2>Подзаголовок </h2></div>
+                <div class="card_state_list">
+                    <div class="card_state_item">
+                        <div class="card_state__title">Подзаголовок</div>
+                        <div class="card_state__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum
+                        </div>
+                    </div>
+                    <div class="card_state_item">
+                        <div class="card_state__title">Подзаголовок</div>
+                        <div class="card_state__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum
+                        </div>
+                    </div>
+                    <div class="card_state_item">
+                        <div class="card_state__title">Подзаголовок</div>
+                        <div class="card_state__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_adv">
+            <div class="container">
+                <div class="card_adv__title"><h2>Преимущества мансардных окон Rehau</h2></div>
+                <div class="card_adv_items">
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Индивидуальный размер</div>
+                        <div class="card_adv_item__text">Технология Monsari Pier ™ позволяет сделать окно для стропил
+                            практически любой формы до 3 200 мм в высоту и ширину.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Универсальность использования и простота установки</div>
+                        <div class="card_adv_item__text">Мансардные окна Rehau подходят для всех видов кровли и любых
+                            помещений (сухих, влажных, сырых, и пр.), не требуют перепланировки стропильной системы.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Выгодная стоимость</div>
+                        <div class="card_adv_item__text">Заказывая мансардные окна Rehau с монтажом под ключ, вы
+                            экономите до 50% бюджета по сравнению с предложениями других производителей.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Максимум освещения и светопроницаемости</div>
+                        <div class="card_adv_item__text">Благодаря уникальной конструкции мансардных окон, возможно
+                            остеклить до 80% площади кровли.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Надёжность</div>
+                        <div class="card_adv_item__text">Во всех наших окнах используется особо прочная формула
+                            стеклопакета: энергосбережение, газ аргон, закалённые стекла и триплекс.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Максимальная защита от влаги и шумоизоляция</div>
+                        <div class="card_adv_item__text">Структурные стеклопакеты и дополнительная гидроизоляция не
+                            допускают протечек и обеспечивают высокий уровень шумоизоляции.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Сохранение комфортной температуры мансардного этажа</div>
+                        <div class="card_adv_item__text">Высокий коэффициент сопротивления теплопередачи стеклопакетов
+                            (м2,0 С/Вт = 0,9), позволяет сохранять тепло и не дает холоду проникать внутрь.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Эксклюзивный стиль</div>
+                        <div class="card_adv_item__text">Окрашивание в любой цвет по каталогу RAL или ламинация по
+                            каталогу Renolit. Выбор исполнения внешнего оклада: из оцинкованной или нержавеющей стали,
+                            латуни или алюминия. Отсутствие аналогичных моделей на территории СНГ.
+                        </div>
+                    </div>
+                    <div class="card_adv_item">
+                        <div class="card_adv_item__title">Гарантия на изготовление и монтаж от одной компании</div>
+                        <div class="card_adv_item__text">Бессрочная гарантия на стеклопакет. Гарантия 5 лет на
+                            конструкцию окна. Гарантия 5 лет на монтаж (самая большая гарантия среди монтажных и
+                            производственных компаний).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_options">
+            <div class="container">
+                <div class="card_options_inner">
+                    <div class="card_options_info">
+                        <div class="card_options_info__title"><h2>Дополнительные Опции</h2></div>
+                        <div class="card_options_info__desc">Вы можете укомплектовать мансардное окно Rehau любым
+                            сочетанием дополнительных аксессуаров.
+                        </div>
+                    </div>
+                    <div class="card_options_items">
+
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_01.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Электропривод</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_02.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Пульт дистанционного управления</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_03.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Москтиные сетки</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_04.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Жалюзи</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_05.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Датчики дождя</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_06.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Тонировка</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_07.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Ручка с ключом</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_08.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Шторы</div>
+                            </div>
+                        </div>
+                        <div class="card_options_item">
+                            <div class="card_options_item__inner">
+                                <div class="card_options_item__icon"><img src="img/card_options_09.svg" alt="alt"></div>
+                                <div class="card_options_item__name">Покраска в любой цвет по каталогу RAL</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_gallery">
+            <div class="container">
+                <div class="card_gallery_items">
+
+                    <div class="card_gallery_item">
+                        <div class="card_gallery_item__img"><img src="img/@2x/card_gallery_01.jpg" alt="alt"></div>
+                        <div class="card_gallery_item__info">
+                            <div class="card_gallery_item__text">Мы изготавливаем и монтируем раздвижные двери с
+                                автоматическим приводом. Конструкции настраиваются на летний или зимний режим, а также
+                                отличаются по скорости открывания, величине проёма и другим параметрам.
+                            </div>
+                            <a href="#" class="card_gallery_item__btn btn btn--blue">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="card_gallery_item card_gallery_item--reverse">
+                        <div class="card_gallery_item__img"><img src="img/@2x/card_gallery_02.jpg" alt="alt"></div>
+                        <div class="card_gallery_item__info">
+                            <div class="card_gallery_item__text">Мы проектируем и устанавливаем карусельные двери с
+                                автоматическим открыванием всех типов: каркасные и цельностеклянные, с верхним и нижним
+                                расположением двигателя, с встроенными тепловыми завесами.
+                            </div>
+                            <a href="#" class="card_gallery_item__btn btn btn--blue">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card_gallery_item">
+                        <div class="card_gallery_item__img"><img src="img/@2x/card_gallery_03.jpg" alt="alt"></div>
+                        <div class="card_gallery_item__info">
+                            <div class="card_gallery_item__text">Наша компания — эксклюзивный представитель и
+                                правообладатель патента на
+                                изготовление мансардных окон Rehau по технологии Monsari Pier™ в России и СНГ, которые
+                                могут быть оснащены цепным или штоковым электроприводом.
+                            </div>
+                            <a href="#" class="card_gallery_item__btn btn btn--blue">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card_gallery_item card_gallery_item--reverse">
+                        <div class="card_gallery_item__img"><img src="img/@2x/card_gallery_04.jpg" alt="alt"></div>
+                        <div class="card_gallery_item__info">
+                            <div class="card_gallery_item__text">Мы проектируем и устанавливаем люки дымоудаления
+                                (зенитные/световые фонари) Monsari Pier™ с цепным или штоковым электроприводом, которые
+                                идеально подходят для скатных и плоских кровель.
+                            </div>
+                            <a href="#" class="card_gallery_item__btn btn btn--blue">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card_gallery_item">
+                        <div class="card_gallery_item__img"><img src="img/@2x/card_gallery_05.jpg" alt="alt"></div>
+                        <div class="card_gallery_item__info">
+                            <div class="card_gallery_item__text">Мы устанавливаем ворота и роллеты с автоматическим
+                                открыванием для различных объектов: производства и склады; частные дома и дачи;
+                                коммерческие помещения в торгово-развлекательных центрах и пр.
+                            </div>
+                            <a href="#" class="card_gallery_item__btn btn btn--blue">Подробнее</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card_why">
+            <div class="container">
+                <div class="card_why__title">Зачем нужна услуга</div>
+                <ol class="card_why__list">
+                    <li><p>величить жилую площадь дома или квартиры.</p></li>
+                    <li><p>Организовать дополнительное помещение для хранения вещей.</p></li>
+                    <li><p>Оградить открытые балкон или лоджию от осадков и пыли. Оградить открытые балкон или лоджию от
+                        осадков и пыли. Оградить открытые балкон или лоджию от осадков и пыли. Оградить открытые балкон
+                        или лоджию от осадков и пыли.Оградить открытые балкон и ло.</p></li>
+                    <li><p>Увеличить жилую площадь дома или квартиры.</p></li>
+                    <li><p>Организовать дополнительное помещение для хранения вещей.</p></li>
+                    <li><p>Оградить открытые балкон или лоджию от осадков и пыли.</p></li>
+                </ol>
+            </div>
+        </div>
+
+
+        <div class="card_specific">
+            <div class="container">
+                <div class="card_specific_h2"><h2>Технические характеристики вакуумных захватов</h2></div>
+
+
+                <div class="card_specific_title">VakuumKraft 502 (VK- К502)</div>
+
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Грузоподъемность</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>500 кг</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Минимальный размер стекла</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>900 х 900 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Высота устройства с тягой</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>1 610 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Расстояние между двумя присосками по диагонали без удлинителей</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>1 150 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Расстояние между двумя присосками по диагонали с удлинителями</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>1 150 х 1 910 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Количество присосок</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Вращение корпуса с фиксацией по 45°</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>360°</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Диаметр присосок</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>270 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Наклон</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>90°</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Минимальное кол. циклов присасывания при полной зарядке аккумуляторной батареи</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>250</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Диаметр присосок</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>270 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Аккумуляторная батарея</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>12В, 9Ач, необслуживаемая</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Вес</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>60 кг</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_title">VakuumKraft 502 (VK- К502)</div>
+
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Грузоподъемность</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>500 кг</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Минимальный размер стекла</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>900 х 900 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Высота устройства с тягой</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>1 610 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Расстояние между двумя присосками по диагонали без удлинителей</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>1 150 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Расстояние между двумя присосками по диагонали с удлинителями</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>1 150 х 1 910 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Количество присосок</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Вращение корпуса с фиксацией по 45°</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>360°</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Диаметр присосок</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>270 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Наклон</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>90°</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Минимальное кол. циклов присасывания при полной зарядке аккумуляторной батареи</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>250</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Диаметр присосок</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>270 мм</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Аккумуляторная батарея</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>12В, 9Ач, необслуживаемая</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_specific_item">
+                    <div class="card_specific__block">
+                        <div><span>Вес</span></div>
+                        <div class="card_specific__line"></div>
+                        <div class="card_specific__value"><span>60 кг</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="card_download">
+            <div class="container">
+                <div class="card_download_inner">
+                    <a href="#" class="btn btn--yellow">Скачать презентацию мини-крана Jekko SPX 527</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sect-form">
+            <div class="container">
+                <div class="sect_form_inner">
+                    <div class="sect_form_info">
+                        <div class="sect_form_info__title">Появились вопросы?</div>
+                        <div class="sect_form_info__desc">Вы можете заказать бесплатную консультацию технического
+                            специалиста
+                        </div>
+                    </div>
+                    <div class="sect_form_content">
+                        <form class="form sect-form__form">
+                            <h3 class="h3">Заполните форму, чтобы заказать звонок</h3>
+                            <div class="wrap-inpute">
+                                <div class="wrap-inpute__item">
+                                    <input type="text" name="Имя" placeholder="Имя">
+                                </div>
+                                <div class="wrap-inpute__item">
+                                    <input class="input-phone" type="tel" name="Телефон"
+                                           placeholder="Контактный телефон">
+                                </div>
+                                <div class="wrap-inpute__item">
+                                    <input class="input-phone" type="text" name="Телефон" placeholder="Комментарий">
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="input-cheked">
+                                    <input id="check2" type="checkbox" name="check" value="check2"
+                                           checked="checked">
+                                    <label class="input-cheked__label" for="check2"><span
+                                            class="input-cheked__text">Я даю согласие на обработку персональных данных и подтверждаю, что ознакомлен с <a
+                                            href="">Политикой обработки персональных данных</a>.</span></label>
+                                </div>
+                                <button class="btn btn--yellow">Заказать звонок</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our_projects">
+            <div class="container">
+                <div class="our_projects_h2"><h2>Наши проекты</h2></div>
+                <div class="our_projects_grid">
+
+                    <div class="our_projects_item">
+                        <a href="#" class="our_projects_item__link">
+                            <img src="img/@2x/our_projects_item_01.jpg" alt="alt" class="our_projects_item__img">
+                        </a>
+                    </div>
+                    <div class="our_projects_item">
+                        <a href="#" class="our_projects_item__link">
+                            <img src="img/@2x/our_projects_item_02.jpg" alt="alt" class="our_projects_item__img">
+                        </a>
+                    </div>
+                    <div class="our_projects_item">
+                        <a href="#" class="our_projects_item__link">
+                            <img src="img/@2x/our_projects_item_03.jpg" alt="alt" class="our_projects_item__img">
+                            <span class="our_projects_item__text">Перейти в портфолио</span>
+                        </a>
+                    </div>
+                    <div class="our_projects_item">
+                        <a href="#" class="our_projects_item__link">
+                            <img src="img/@2x/our_projects_item_04.jpg" alt="alt" class="our_projects_item__img">
+                        </a>
+                    </div>
+                    <div class="our_projects_item">
+                        <a href="#" class="our_projects_item__link">
+                            <img src="img/@2x/our_projects_item_05.jpg" alt="alt" class="our_projects_item__img">
+                        </a>
+                    </div>
+                    <div class="our_projects_item">
+                        <a href="#" class="our_projects_item__link">
+                            <img src="img/@2x/our_projects_item_06.jpg" alt="alt" class="our_projects_item__img">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="our_projects_navigation">
+                    <div class="progress">
+                    </div>
+
+                    <div class="our_projects_nav">
+                        <div class="our_projects_nav__left">
+                            <img class="our_projects_nav__dark" src="img/arrow_light_blue.svg" alt="alt">
+                        </div>
+                        <div class="our_projects_nav__right">
+                            <img class="our_projects_nav__dark" src="img/right-arrow-light.svg" alt="alt">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="go_portfolio">
+                    <a href="" class="go_portfolio__link btn">Перейти в портфолио</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sect_licences">
+            <div class="container">
+                <div class="licences_inner">
+                    <div class="licences__title"><h2 class="h2">Допуски</h2></div>
+                    <div class="licences__desc">Наши компетенции подтверждаются членством в проектном и строительном
+                        СРО, наличием лицензии МЧС, а также работой по международному стандарту ISO 9001.
+                    </div>
+                </div>
+                <div class="licences_slider">
+                    <div class="licences_slide">
+                        <a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>
+                            <img src="img/allowance.jpg" alt="alt">
+                        </a>
+                    </div>
+                    <div class="licences_slide">
+                        <a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>
+                            <img src="img/allowance.jpg" alt="alt">
+                        </a>
+                    </div>
+                    <div class="licences_slide">
+                        <a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>
+                            <img src="img/allowance.jpg" alt="alt">
+                        </a>
+                    </div>
+                    <div class="licences_slide">
+                        <a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>
+                            <img src="img/allowance.jpg" alt="alt">
+                        </a>
+                    </div>
+                </div>
+                <div class="licences_nav">
+                    <div class="licences_nav__prev"><img src="img/arrow-prev.svg" alt="alt"></div>
+                    <div class="licences_nav__next"><img src="img/arrow-next.svg" alt="alt"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card_stages">
+            <div class="container">
+                <div class="card_stages_h2"><h2>Этапы работы</h2></div>
+                <div class="card_stages_items">
+
+                    <div class="card_stages_item">
+                        <div class="card_stages_item__number">1</div>
+                        <div class="card_stages_item__info">
+                            <div class="card_stages_item__title">Выезд на замер и подготовка проекта при
+                                необходимости
+                            </div>
+                            <div class="card_stages_item__text">Выполняются инженером по замерам и проектным отделом
+                                компании «Летний сад»
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_stages_item">
+                        <div class="card_stages_item__number">2</div>
+                        <div class="card_stages_item__info">
+                            <div class="card_stages_item__title">Производство и поставка изделий и комплектующих для
+                                замены остекления
+                            </div>
+                            <div class="card_stages_item__text">Компания «Летний сад» обладает собственным
+                                автопарком,
+                                производством, а также является партнером ведущих заводов - Rehau, Roto, Veka, РСК,
+                                Akma
+                                и др.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_stages_item">
+                        <div class="card_stages_item__number">3</div>
+                        <div class="card_stages_item__info">
+                            <div class="card_stages_item__title">Установка изделий</div>
+                            <div class="card_stages_item__text">Монтаж производится штатными специалистами компании
+                                «Летний сад», имеющими необходимые допуски на проведение работ
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_stages_item">
+                        <div class="card_stages_item__number">4</div>
+                        <div class="card_stages_item__info">
+                            <div class="card_stages_item__title">Гарантийное и постгарантийное обслуживание</div>
+                            <div class="card_stages_item__text">Выполняется специалистами сервисного отдела компании
+                                «Летний сад»
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card_offers">
+            <div class="container">
+                <div class="card_offers_h2"><h2>Почему более 80 000 клиентов заказали замену остекления в компании «Летний сад»?</h2></div>
+                <div class="card_offers_items">
+
+                    <div class="card_offers_item">
+                        <div class="card_offers_item__icon"><img src="img/card_offer_01.svg" alt="alt"></div>
+                        <div class="card_offers_item__text">Рассрочка платежа, скидки для постоянных клиентов. Работаем  по договору без увеличения итоговой стоимости</div>
+                    </div>
+                    <div class="card_offers_item">
+                        <div class="card_offers_item__icon"><img src="img/card_offer_02.svg" alt="alt"></div>
+                        <div class="card_offers_item__text">Опыт с 1999 года. Более 4 000 остекленных балконов в год. Гарантия 5 лет на все виды работ</div>
+                    </div>
+                    <div class="card_offers_item">
+                        <div class="card_offers_item__icon"><img src="img/card_offer_03.svg" alt="alt"></div>
+                        <div class="card_offers_item__text">Партнёрские программы с управляющими компаниями и ТСЖ. Согласование проекта с УК</div>
+                    </div>
+                    <div class="card_offers_item">
+                        <div class="card_offers_item__icon"><img src="img/card_offer_04.svg" alt="alt"></div>
+                        <div class="card_offers_item__text">Быстрый выход на монтаж благодаря штату квалифицированных сотрудников: проектировщиков, инженеров, монтажных бригад</div>
+                    </div>
+                    <div class="card_offers_item">
+                        <div class="card_offers_item__icon"><img src="img/card_offer_05.svg" alt="alt"></div>
+                        <div class="card_offers_item__text">Собственные производство 1500 квадратных метров, логистика, склад. Запатентованные и проверенные временем технологии</div>
+                    </div>
+                    <div class="card_offers_item">
+                        <div class="card_offers_item__icon"><img src="img/card_offer_06.svg" alt="alt"></div>
+                        <div class="card_offers_item__text">Выполнение работ в соответствии  с регламентами и без изменения внешнего вида фасада. Сервисное обслуживание в течение всего гарантийного периода</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <section  class="faq">
+            <div class="container">
+                <div class="faq_h2"><h2>часто задаваемые вопросы</h2></div>
+            <div class="faq-quest">
+                <div class="faq-wrapper">
+                    <div class="faq-items">
+
+                        <div class="faq-item">
+                            <div class="faq-item__controll"><i></i><i></i></div>
+                            <div class="faq-item__title">Возможно ли появление конденсата на внутренних поверхностях  остекления?</div>
+                            <div class="faq-item__answer">
+                                <p>Важно помнить, что новое тёплое остекление само себя не греет. Необходимо предусмотреть утепление стоечно-ригельного каркаса, плит перекрытия и добавление точки отопления на балконе в виде конвектора или тёплого пола, чтобы исключить возможные причины появления конденсата. Если проблема все же появилась, то необходимо вызвать сервисного мастера компании "Летний сад" для выявления причины возникновения конденсата.</p>
+                                <p>Сервисный мастер проведет осмотр и сможет устранить такие причины, как - негерметичность примыканий и продувания, также даст рекомендации по эксплуатации нового тёплого остекления. Рекомендуем для утепления стоечно-ригельного каркаса использовать короба EWIC®.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-item__controll"><i></i><i></i></div>
+                            <div class="faq-item__title">У меня закрытая территория ЖК, как решать вопросы с пропуском автомобиля?</div>
+                            <div class="faq-item__answer">
+                                <p>Важно помнить, что новое тёплое остекление само себя не греет. Необходимо предусмотреть утепление стоечно-ригельного каркаса, плит перекрытия и добавление точки отопления на балконе в виде конвектора или тёплого пола, чтобы исключить возможные причины появления конденсата. Если проблема все же появилась, то необходимо вызвать сервисного мастера компании "Летний сад" для выявления причины возникновения конденсата.</p>
+                                <p>Сервисный мастер проведет осмотр и сможет устранить такие причины, как - негерметичность примыканий и продувания, также даст рекомендации по эксплуатации нового тёплого остекления. Рекомендуем для утепления стоечно-ригельного каркаса использовать короба EWIC®.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-item__controll"><i></i><i></i></div>
+                            <div class="faq-item__title">Что делать в случае заклинивания запорных механизмов? Что делать в случае заклинивания запорных механизмов?</div>
+                            <div class="faq-item__answer">
+                                <p>Важно помнить, что новое тёплое остекление само себя не греет. Необходимо предусмотреть утепление стоечно-ригельного каркаса, плит перекрытия и добавление точки отопления на балконе в виде конвектора или тёплого пола, чтобы исключить возможные причины появления конденсата. Если проблема все же появилась, то необходимо вызвать сервисного мастера компании "Летний сад" для выявления причины возникновения конденсата.</p>
+                                <p>Сервисный мастер проведет осмотр и сможет устранить такие причины, как - негерметичность примыканий и продувания, также даст рекомендации по эксплуатации нового тёплого остекления. Рекомендуем для утепления стоечно-ригельного каркаса использовать короба EWIC®.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-item__controll"><i></i><i></i></div>
+                            <div class="faq-item__title">Что делать в случае заклинивания запорных механизмов? Что делать в случае заклинивания запорных механизмов?</div>
+                            <div class="faq-item__answer">
+                                <p>Важно помнить, что новое тёплое остекление само себя не греет. Необходимо предусмотреть утепление стоечно-ригельного каркаса, плит перекрытия и добавление точки отопления на балконе в виде конвектора или тёплого пола, чтобы исключить возможные причины появления конденсата. Если проблема все же появилась, то необходимо вызвать сервисного мастера компании "Летний сад" для выявления причины возникновения конденсата.</p>
+                                <p>Сервисный мастер проведет осмотр и сможет устранить такие причины, как - негерметичность примыканий и продувания, также даст рекомендации по эксплуатации нового тёплого остекления. Рекомендуем для утепления стоечно-ригельного каркаса использовать короба EWIC®.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <div class="reviews">
+            <div class="container">
+                <div class="reviews_inner">
+                    <div class="reviews__info">
+                        <h2 class="h2 reviews__title"><span>Отзывы</span> о нашей работе</h2>
+                        <a data-fancybox="" data-touch="false" data-src="#modal_form_reviews" class="btn reviews__btn" href="javascript:;">Добавить отзыв</a>
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews_slider">
+
+                            <div class="reviews_slide">
+                                <div class="reviews_slide__user">
+                                    <div class="reviews_slide__img"><img src="img/@2x/user.jpg" alt="alt"></div>
+                                    <div class="reviews_slide__name">Олег Иванов</div>
+                                </div>
+                                <div class="reviews_slide__text">В компании летний сад обещали сохранить внешний вид и согласовать все работы с УК…Спасибо за подробную консультацию менеджеру Аделине и всей команде монтажников за качественно выполненную работу. Все работы длились 2 дня. Внешний вид изменен не был, а на лоджии теперь тепло и сухо. Да ещё и мусор бесплатно вынесли) ...</div>
+                                <a href="#" class="reviews_slide__link">[Читать в источнике]</a>
+                            </div>
+
+                            <div class="reviews_slide">
+                                <div class="reviews_slide__user">
+                                    <div class="reviews_slide__img"><img src="img/@2x/user.jpg" alt="alt"></div>
+                                    <div class="reviews_slide__name">Олег Иванов</div>
+                                </div>
+                                <div class="reviews_slide__text">В компании летний сад обещали сохранить внешний вид и согласовать все работы с УК…Спасибо за подробную консультацию менеджеру Аделине и всей команде монтажников за качественно выполненную работу. Все работы длились 2 дня. Внешний вид изменен не был, а на лоджии теперь тепло и сухо. Да ещё и мусор бесплатно вынесли) ...</div>
+                                <a href="#" class="reviews_slide__link">[Читать в источнике]</a>
+                            </div>
+
+                            <div class="reviews_slide">
+                                <div class="reviews_slide__user">
+                                    <div class="reviews_slide__img"><img src="img/@2x/user.jpg" alt="alt"></div>
+                                    <div class="reviews_slide__name">Олег Иванов</div>
+                                </div>
+                                <div class="reviews_slide__text">В компании летний сад обещали сохранить внешний вид и согласовать все работы с УК…Спасибо за подробную консультацию менеджеру Аделине и всей команде монтажников за качественно выполненную работу. Все работы длились 2 дня. Внешний вид изменен не был, а на лоджии теперь тепло и сухо. Да ещё и мусор бесплатно вынесли) ...</div>
+                                <a href="#" class="reviews_slide__link">[Читать в источнике]</a>
+                            </div>
+
+                            <div class="reviews_slide">
+                                <div class="reviews_slide__user">
+                                    <div class="reviews_slide__img"><img src="img/@2x/user.jpg" alt="alt"></div>
+                                    <div class="reviews_slide__name">Олег Иванов</div>
+                                </div>
+                                <div class="reviews_slide__text">В компании летний сад обещали сохранить внешний вид и согласовать все работы с УК…Спасибо за подробную консультацию менеджеру Аделине и всей команде монтажников за качественно выполненную работу. Все работы длились 2 дня. Внешний вид изменен не был, а на лоджии теперь тепло и сухо. Да ещё и мусор бесплатно вынесли) ...</div>
+                                <a href="#" class="reviews_slide__link">[Читать в источнике]</a>
+                            </div>
+
+                            <div class="reviews_slide">
+                                <div class="reviews_slide__user">
+                                    <div class="reviews_slide__img"><img src="img/@2x/user.jpg" alt="alt"></div>
+                                    <div class="reviews_slide__name">Олег Иванов</div>
+                                </div>
+                                <div class="reviews_slide__text">В компании летний сад обещали сохранить внешний вид и согласовать все работы с УК…Спасибо за подробную консультацию менеджеру Аделине и всей команде монтажников за качественно выполненную работу. Все работы длились 2 дня. Внешний вид изменен не был, а на лоджии теперь тепло и сухо. Да ещё и мусор бесплатно вынесли) ...</div>
+                                <a href="#" class="reviews_slide__link">[Читать в источнике]</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="review_footer">
+                    <div class="review_wrap">
+                        <div class="review_nav">
+                            <div class="review_nav__left"><img src="img/left-arrow-left.svg" alt="alt"></div>
+                            <div class="review_nav__right"><img src="img/right-arrow-light.svg" alt="alt"></div>
+                        </div>
+                    </div>
+                    <div class="review_counter">
+                        <div class="review_counter__prev"></div>/<div class="review_counter__next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sect-states sect card-states">
+            <div class="container">
+                <h2 class="h2 sect_h2">новости и статьи</h2>
+                <a href="#" class="sect-states__link">
+                    <span>Открыть все статьи</span> <img src="img/card_state_arrow.svg" alt="">
+                </a>
+               
+                <div class="states_list">
+                    <div class="state_item">
+                        <a href="#" class="state_item__link">
+                            <span class="state_item__img"><img src="img/@2x/car_state_01.jpg" alt="alt"></span>
+                            <span class="state_item__title">Что нужно знать о разных типах оконных стёкол?</span>
+                            <span class="state_item__desc">Сейчас на рынке представлено огромное количество различных вариантов - разберемся, какое стекло подходит именно для вашего дома.</span>
+                        </a>
+                    </div>
+                    <div class="state_item">
+                        <a href="#" class="state_item__link">
+                            <span class="state_item__img"><img src="img/@2x/car_state_02.jpg" alt="alt"></span>
+                            <span class="state_item__title">Анатомия стеклопакетов</span>
+                            <span class="state_item__desc">Что это такое, и какие факторы нужно принять во внимание, когда вы делаете выбор между теплоизоляционным и обычным стеклом?</span>
+                        </a>
+                    </div>
+                    <div class="state_item">
+                        <a href="#" class="state_item__link">
+                            <span class="state_item__img"><img src="img/@2x/car_state_03.jpg" alt="alt"></span>
+                            <span class="state_item__title">Стекло триплекс: преимущества и применение</span>
+                            <span class="state_item__desc">Триплекс – это многослойный инновационный материал, который изготавливается путём склеивания силикатных стекол...</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- main -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_projects">
+                    <div class="footer_title">Наши проекты</div>
+                    <div class="footer_list">
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_01.png" alt="alt"></a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_02.png" alt="alt"></a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_03.png" alt="alt"></a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_04.png" alt="alt"></a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_05.png" alt="alt"></a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_06.png" alt="alt"></a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_07.png" alt="alt"></a>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="#" target="_blank"><img src="img/logo_project_08.png" alt="alt"></a>
+                        </div>
+                    </div>
+                    <div class="copy copy_mb">Copyright © ООО «Летний Сад», 1999-2020, Все права защищены</div>
+                </div>
+                <div class="foooter_wrap">
+                    <div class="foooter_soc">
+                        <div class="foooter_social">
+                            <div class="footer_title">Контакты</div>
+                            <div class="social_list">
+                                <a href="https://vk.com/lscompany" target="_blank">
+                                    <img src="img/vk.svg" alt="alt">
+                                </a>
+                                <a href="https://www.facebook.com/letsad.spb" target="_blank">
+                                    <img src="img/facebook.svg" alt="alt">
+                                </a>
+                                <a href="https://www.instagram.com/letsad.fasadka/" target="_blank">
+                                    <img src="img/instagram.svg" alt="alt">
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCz4Ah8YDJD7NhoE3KMt8XFg" target="_blank">
+                                    <img src="img/youtube.svg" alt="alt">
+                                </a>
+                            </div>
+                            <a data-fancybox data-src="#modal_form" class="btn foooter_social__btn"
+                               href="javascript:;">
+                                Cвязаться с нами
+                            </a>
+                        </div>
+                        <div class="footer_metirica">
+                            <img src="img/counter.png" alt="alt">
+                        </div>
+                    </div>
+                    <div class="copy">Copyright © ООО «Летний Сад», 1999-2020, Все права защищены</div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</div>
+
+<div class="hidden">
+
+    <div id="modal_form">
+        <form class="form form_modal">
+            <h3 class="h3">Получить бесплатную консультацию</h3>
+            <div class="form_modal__wrap">
+                <div class="form_modal__desc">
+                    Заполните форму, чтобы заказать<br/> звонок технического специалиста.
+                </div>
+                <div class="form_modal__label">
+                    Контактные данные
+                </div>
+                <div class="wrap-inpute">
+                    <div class="wrap-inpute__item">
+                        <input type="text" name="Имя" placeholder="Имя">
+                    </div>
+                    <div class="wrap-inpute__item">
+                        <input class="input-phone" type="tel" name="Телефон" placeholder="Контактный телефон">
+                    </div>
+                    <div class="form_modal__label">
+                        Комментарий
+                    </div>
+                    <div class="wrap-inpute__item">
+                        <textarea name="reviews" placeholder="У меня следующий вопрос..."></textarea>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn--yellow">Заказать звонок</button>
+                    <div class="input-cheked">
+                        <input id="check3" type="checkbox" name="check" value="check3" checked="checked">
+                        <label class="input-cheked__label" for="check3"><span class="input-cheked__text">Нажимая «Отправить» я соглашаюсь<br/> с <a
+                                href="">политикой обработки персональных данных</a>.</span></label>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div id="modal_logos">
+        <div class="modal_logos_wrap">
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_01.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_02.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_03.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_04.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_05.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_06.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_07.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_08.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_09.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_10.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_11.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_12.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_01.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_02.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_03.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_04.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_05.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_06.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_07.jpg" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_08.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_09.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_10.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_11.png" alt="alt"></a></div>
+            <div class="partner_item"><a href="#"><img src="img/parnter_logo_12.png" alt="alt"></a></div>
+        </div>
+    </div>
+
+</div>
+
+<div id="topNubex"><img src="img/arrow-up.svg" alt="alt"/></div>
+
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/styles.min.css">
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
