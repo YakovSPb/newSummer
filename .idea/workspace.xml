@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f24167-1ad8-4389-be8c-69ee2242825b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/portfolio_zfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/states-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/states.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_libs.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_libs.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/portfolio_zfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio_zfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,7 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1lyhwq2olHtA40iTSzwk3XJQaqD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SocialNetworkReact" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -102,7 +96,16 @@
       <workItem from="1611404528888" duration="299000" />
       <workItem from="1611405128871" duration="17464000" />
       <workItem from="1611479018448" duration="3205000" />
-      <workItem from="1611482402272" duration="850000" />
+      <workItem from="1611482402272" duration="1163000" />
+      <workItem from="1611485656998" duration="55000" />
+      <workItem from="1611590972688" duration="2843000" />
+      <workItem from="1611682918669" duration="1877000" />
+      <workItem from="1611754978821" duration="2469000" />
+      <workItem from="1611759668974" duration="64000" />
+      <workItem from="1611761829722" duration="1115000" />
+      <workItem from="1611765488058" duration="1296000" />
+      <workItem from="1611766799925" duration="1442000" />
+      <workItem from="1611927497683" duration="2195000" />
     </task>
     <servers />
   </component>

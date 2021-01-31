@@ -638,14 +638,88 @@ smoothScroll();
 
 
 //card_select
-	$('select').selectize({
-		create: true,
+// 	$('select').selectize({
+// 		create: true,
+// 		onChange: function(value) {
+// 			$(faqItem[value]).toggleClass('active');
+// 			$(".card_tabs__wrapper .card_tab").removeClass("active").eq(value).addClass("active");
+// 			$(".card_tab_item").hide().eq(value).fadeIn()
+// 		},
+// 		openOnFocus: false,
+//
+// 		onInitialize: function () {
+// 			var that = this;
+//
+// 			this.$control.on("click", function () {
+// 				that.ignoreFocusOpen = true;
+// 				setTimeout(function () {
+// 					that.ignoreFocusOpen = false;
+// 				}, 50);
+// 			});
+// 		},
+//
+//
+// 	});
+
+// $('.selectize-input').click(function() {
+//
+// 	if ($(".selectize-input:not(.input-active)")) {
+// 		selectize.open();
+// 	} else {
+// 		selectize.close();
+// 	}
+// })
+//
+// $('.selectize-input input').attr('readonly', 'readonly');
+// $('.selectize-input input').attr('hidden', 'hidden');
+// 		$('.selectize-input input').attr("hidden",true);
+
+
+	class SelectWidget {
+		constructor(el) {
+			this.select = el.selectize(this.options())[0].selectize
+			this.focus = false
+			this.bindEvents()
+		}
+
+		bindEvents() {
+			this.select.$control.unbind()
+			this.select.$control.find('input').off('click', '**')
+			this.handleOpenClose()
+		}
+
+		handleOpenClose() {
+			this.select.$control.click(() => {
+				if (this.focus) {
+					this.select.close()
+					this.toggleFocus(false)
+				} else {
+					this.select.open()
+					this.toggleFocus(true)
+				}
+			})
+		}
+
+		toggleFocus(focus) {
+			this.focus = focus
+		}
+
+		options() {
+			return {
+				openOnFocus: false
+			}
+		}
+	}
+
+	new SelectWidget($('select').selectize({
 		onChange: function(value) {
 			$(faqItem[value]).toggleClass('active');
 			$(".card_tabs__wrapper .card_tab").removeClass("active").eq(value).addClass("active");
 			$(".card_tab_item").hide().eq(value).fadeIn()
-		}
-	});
+		},
+	}));
+
+
 
 
 //slider project

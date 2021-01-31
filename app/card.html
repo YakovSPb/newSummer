@@ -982,11 +982,13 @@
                     <div class="our_projects_item">
                         <a href="#" class="our_projects_item__link">
                             <img src="img/@2x/our_projects_item_01.jpg" alt="alt" class="our_projects_item__img">
+                            <span class="our_projects_item__text">Перейти в портфолио</span>
                         </a>
                     </div>
                     <div class="our_projects_item">
                         <a href="#" class="our_projects_item__link">
                             <img src="img/@2x/our_projects_item_02.jpg" alt="alt" class="our_projects_item__img">
+                            <span class="our_projects_item__text">Перейти в портфолио</span>
                         </a>
                     </div>
                     <div class="our_projects_item">
@@ -998,16 +1000,19 @@
                     <div class="our_projects_item">
                         <a href="#" class="our_projects_item__link">
                             <img src="img/@2x/our_projects_item_04.jpg" alt="alt" class="our_projects_item__img">
+                            <span class="our_projects_item__text">Перейти в портфолио</span>
                         </a>
                     </div>
                     <div class="our_projects_item">
                         <a href="#" class="our_projects_item__link">
                             <img src="img/@2x/our_projects_item_05.jpg" alt="alt" class="our_projects_item__img">
+                            <span class="our_projects_item__text">Перейти в портфолио</span>
                         </a>
                     </div>
                     <div class="our_projects_item">
                         <a href="#" class="our_projects_item__link">
                             <img src="img/@2x/our_projects_item_06.jpg" alt="alt" class="our_projects_item__img">
+                            <span class="our_projects_item__text">Перейти в портфолио</span>
                         </a>
                     </div>
 
@@ -1444,6 +1449,39 @@
         </form>
     </div>
 
+    <div id="modal_form_reviews">
+        <form class="form form_modal">
+            <h3 class="h3">Оставить отзыв</h3>
+            <div class="form_modal__label">
+                С какой вероятностью вы порекомендуете наc?
+            </div>
+            <div class="wrap-inpute">
+                <div class="wrap-inpute__item wrap-inpute__item_range">
+                    <input type="text" id="reviews_range" name="reviews_range_name" value="" />
+                </div>
+
+                <div class="form_modal__label">
+                    Контактные данные
+                </div>
+                <div class="wrap-inpute__item wrap-inpute__item_contacts">
+                    <input type="text" name="Имя" placeholder="Имя">
+                    <input class="input-phone" type="tel" name="Телефон" placeholder="Контактный телефон">
+                </div>
+            </div>
+            <div class="form_modal__label">
+                Отзыв *
+            </div>
+            <textarea name="reviews" placeholder="Почему вы дали такую оценку"></textarea>
+            <div class="text-center">
+                <button class="btn btn--yellow">Отправить</button>
+                <div class="input-cheked">
+                    <input id="check2" type="checkbox" name="check" value="check2" checked="checked">
+                    <label class="input-cheked__label" for="check2"><span class="input-cheked__text">Я даю согласие на обработку персональных данных и подтверждаю, что ознакомлен с <a href="">Политикой обработки персональных данных</a>.</span></label>
+                </div>
+            </div>
+        </form>
+    </div>
+
     <div id="modal_logos">
         <div class="modal_logos_wrap">
             <div class="partner_item"><a href="#"><img src="img/parnter_logo_01.png" alt="alt"></a></div>
@@ -1475,8 +1513,8 @@
 
 </div>
 
-<div id="topNubex"><img src="img/arrow-up.svg" alt="alt"/></div>
-
+<div id="topNubex"><img src="img/arrow-up.svg" alt="alt" /></div>
+<link rel="stylesheet" href="css/ion.rangeSlider.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
 <link rel="stylesheet" href="css/styles.min.css">
 <script src="js/scripts.min.js"></script>
